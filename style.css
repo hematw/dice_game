@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background-color: rgb(22, 36, 51);
+  text-align: center;
+  color: rgb(30, 210, 105);
+  font-family: forte;
+  height: 100vh;
+  padding: 32px;
+}
+
+.container h1 {
+  font-size: max(7.5vw, 42px);
+  font-weight: 500;
+}
+
+.dices {
+  display: flex;
+  justify-content: center;
+}
+
+.dices div {
+  margin: 50px 16px;
+  width: 180px;
+}
+
+.dices div img {
+  width: 100%;
+  margin-top: 26px;
+}
+
+.container button {
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(30, 210, 105);
+  color: rgb(45, 24, 83);
+  font-family: forte;
+  font-size: 22px;
+  margin: 10px;
+  box-shadow: 2px 2px 6px rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.container button:active {
+  transform: scale(0.95);
+}
+
+.container p {
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace
+}
